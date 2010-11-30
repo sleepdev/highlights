@@ -6,7 +6,7 @@ syntax "sml" "\.sml$"
 
 color brightblue ""
 #keywords
-color brightcyan "\<(as|case|type|exception|match|of|if|then|else|ref|fun|fn|let|in|end|val|raise|rec)\>"
+color brightcyan "\<(as|case|datatype|else|end|exception|fn|fun|if|in|let|match|of|raise|rec|then|type|val)\>"
 #string literals
 color brightgreen "#["]([^"]|([\\]["]))*["]" 
 color brightgreen "["]([^"]|([\\]["]))*["]" 
