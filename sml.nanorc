@@ -8,8 +8,8 @@ color brightblue ""
 #keywords
 color brightcyan "\<(as|case|type|exception|match|of|if|then|else|ref|fun|fn|let|in|end|val|raise|rec)\>"
 #string literals
-color brightgreen "#["]([^"]|[^\\])*["]" 
-color brightgreen "["]([^"]|[^\\])*["]" 
+color brightgreen "#["]([^"]|([\\]["]))*["]" 
+color brightgreen "["]([^"]|([\\]["]))*["]" 
 #comments
 color brightred start="\(\*" end="\*\)"
 
