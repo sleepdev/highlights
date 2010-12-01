@@ -14,7 +14,7 @@ color brightgreen "#["]([^"]|([\\]["]))*["]"
 color brightgreen "["]([^"]|([\\]["]))*["]" 
 
 #comments
-color brightred start="\(#" end="#\)"
+color brightred start="\(\*" end="\*\)"
 
 
 
