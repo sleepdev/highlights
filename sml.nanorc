@@ -4,12 +4,16 @@
 
 syntax "sml" "\.sml$"
 
-color brightblue ""
+#function names
+icolor brightblue "fun [0-9A-Z_]+"
+
 #keywords
 color brightcyan "\<(andalso|as|case|datatype|else|end|exception|fn|fun|if|in|let|match|of|orelse|raise|rec|then|type|val)\>"
+
 #string literals
 color brightgreen "#["]([^"]|([\\]["]))*["]" 
 color brightgreen "["]([^"]|([\\]["]))*["]" 
+
 #comments
 color brightred start="\(\*" end="\*\)"
 
