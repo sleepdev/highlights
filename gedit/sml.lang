@@ -172,6 +172,8 @@
 	  <keyword>let</keyword>
 	  <keyword>match</keyword>
 	  <keyword>rec</keyword>
+      <keyword>structure</keyword>
+      <keyword>signature</keyword>
 	  <keyword>then</keyword>
 	  <keyword>to</keyword>
 	  <keyword>try</keyword>
@@ -183,26 +185,15 @@
 	<!-- types, objects and modules -->
 	<context id="meta-words" style-ref="meta-keyword">
 	  <keyword>as</keyword>
-	  <keyword>class</keyword>
-	  <keyword>constraint</keyword>
 	  <keyword>exception</keyword>
 	  <keyword>external</keyword>
 	  <keyword>functor</keyword>
 	  <keyword>include</keyword>
-	  <keyword>inherit</keyword>
-	  <keyword>initializer</keyword>
-	  <keyword>method</keyword>
-	  <keyword>module</keyword>
-	  <keyword>mutable</keyword>
-	  <keyword>new</keyword>
-	  <keyword>object</keyword>
 	  <keyword>of</keyword>
 	  <keyword>open</keyword>
-	  <keyword>private</keyword>
 	  <keyword>struct</keyword>
 	  <keyword>sig</keyword>
 	  <keyword>type</keyword>
-	  <keyword>virtual</keyword>
 	</context>
 	<context id="function-keywords" style-ref="fun-keyword">
 	  <!-- function-like keywords -->
@@ -278,7 +269,6 @@
 	  <keyword>queue</keyword>
 	  <keyword>random</keyword>
 	  <keyword>scanf</keyword>
-	  <keyword>set</keyword>
 	  <keyword>sort</keyword>
 	  <keyword>stack</keyword>
 	  <keyword>stdLabels</keyword>
